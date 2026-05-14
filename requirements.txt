@@ -1,0 +1,5 @@
+# Manim runs inside the Docker/Podman sandbox (see MANIM_SANDBOX_IMAGE); do not
+# install manim on the host for this app — old pins also conflict with Python 3.12+.
+streamlit==1.32.0
+groq>=1.2.0
+python-dotenv==1.0.1
